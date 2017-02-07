@@ -1,6 +1,6 @@
 
 <?php
-//Programa que imprime PIN se é multiplo de 4
+//Exercício 4 - Programa que imprime PIN se é multiplo de 4
 
 for ($contador = 1; $contador <= 100; $contador++){
   if ($contador % 4 === 0){

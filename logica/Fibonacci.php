@@ -1,6 +1,6 @@
 
 <?php
-//Programa que imprime os 15 primeiros numeros de Fibonacci
+//Exercício 7 - Programa que imprime os 15 primeiros numeros de Fibonacci
 
 $a = 0;
 $b = 1;

@@ -1,5 +1,5 @@
 <?php
-//Programa que imprime 5 triângulos de *
+//Exercício 6 - Programa que imprime 5 triângulos de *
 
 $numeroDeTriangulos = 0;
 
