@@ -7,6 +7,10 @@ class Conta {
   public $saldo;
   public $limite = 100;
   public $agencia;
+  
+  /*public function __construct($numero){
+    $this->numero = $numero;
+  }*/
 
   function deposita($valor){
     $this->saldo += $valor;
