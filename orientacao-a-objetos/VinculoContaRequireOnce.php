@@ -1,16 +1,13 @@
 <?php
-//Agregação - T
+//Testando o require once
+
+require_once 'Agencia.php';
 
 class Conta {
   public $numero;
   public $saldo;
   public $limite = 100;
   public $local;
-  }
-
-  class Agencia {
-    public $numero;
-
   }
 
 $agencia = new Agencia;
