@@ -3,10 +3,10 @@
 require_once'Conta.php';
 require_once'Agencia.php';
 
-$conta = new Conta(13);
+$conta = new Conta(178);
 $conta->limite = 100;
 $conta->agencia = new Agencia;
-$conta->agencia->numero = 178;
+$conta->numero = 13;
 
 //deposita
 $conta->deposita(1000);

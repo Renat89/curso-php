@@ -7,10 +7,10 @@ class Conta {
   public $saldo;
   public $limite = 100;
   public $agencia;
-  
-  /*public function __construct($numero){
-    $this->numero = $numero;
-  }*/
+
+  public function __construct($agencia){
+    $this->agencia = $agencia;
+  }
 
   function deposita($valor){
     $this->saldo += $valor;
@@ -37,6 +37,7 @@ class Conta {
     echo "Agencia: {$this->agencia->numero}".PHP_EOL;
     echo "Conta: $this->numero".PHP_EOL;
     echo "Saldo: $this->saldo".PHP_EOL;
+    echo "Limite: $this->limite".PHP_EOL;
     echo "\n";
   }
 }
