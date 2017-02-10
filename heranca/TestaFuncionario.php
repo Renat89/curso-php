@@ -20,23 +20,23 @@ $secretaria->nome = "Tatiane Andrade";
 $secretaria->salario = 1500;
 $secretaria->ramal = 198;
 
-echo "GERENTE".PHP_EOL;
-echo "$gerente->nome".PHP_EOL;
-echo "$gerente->salario".PHP_EOL;
-echo "$gerente->usuario".PHP_EOL;
-echo "$gerente->senha".PHP_EOL;
-echo $gerente->calculaBonificacao().PHP_EOL.PHP_EOL;
+echo "____GERENTE____".PHP_EOL;
+echo "Nome: $gerente->nome".PHP_EOL;
+echo "Salario: R$ $gerente->salario".PHP_EOL;
+echo "Usuario: $gerente->usuario".PHP_EOL;
+echo "Senha: $gerente->senha".PHP_EOL;
+echo "Bonificação: ".$gerente->calculaBonificacao().PHP_EOL.PHP_EOL;
 
-echo "TELEFONISTA".PHP_EOL;
-echo "$telefonista->nome".PHP_EOL;
-echo "$telefonista->salario".PHP_EOL;
-echo "$telefonista->estacaoDeTrabalho".PHP_EOL;
-echo $telefonista->calculaBonificacao().PHP_EOL.PHP_EOL;
+echo "____TELEFONISTA____".PHP_EOL;
+echo "Nome: $telefonista->nome".PHP_EOL;
+echo "Salario: R$ $telefonista->salario".PHP_EOL;
+echo "Estação de Trabalho: $telefonista->estacaoDeTrabalho".PHP_EOL;
+echo "Bonificação: ".$telefonista->calculaBonificacao().PHP_EOL.PHP_EOL;
 
-ECHO "SECRETARIA".PHP_EOL;
+ECHO "____SECRETARIA____".PHP_EOL;
 echo "$secretaria->nome".PHP_EOL;
-echo "$secretaria->salario".PHP_EOL;
-echo "$secretaria->ramal".PHP_EOL;
-echo $secretaria->calculaBonificacao().PHP_EOL;
+echo "Salario: R$ $secretaria->salario".PHP_EOL;
+echo "Ramal: $secretaria->ramal".PHP_EOL;
+echo "Bonificação: ".$secretaria->calculaBonificacao().PHP_EOL;
 
  ?>
